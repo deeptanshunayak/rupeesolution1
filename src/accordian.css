@@ -1,0 +1,112 @@
+
+  .boom{
+   
+    width: 100%;
+
+    height: 100vh;
+    margin-top: 70px;
+    display: flex;
+  justify-content: center !important;
+  align-items: center;
+  overflow-x: hidden;
+  }
+  .main-div {
+   
+    width: 50vw;
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+      rgba(17, 17, 26, 0.1) 0px 8px 8px;
+  }
+  
+  .header {
+    text-align: center;
+    font-family: "Bitter", serif;
+    text-transform: capitalize;
+    font-size: 32px;
+    letter-spacing: 5;
+    word-spacing: 5px;
+    margin-bottom: 50px;
+    color: #2c3148;
+  }
+  
+  .main-heading {
+    
+    align-items: center;
+    text-align: left;
+    display: flex;
+    margin-top: 30px;
+    padding: 20px 0 20px 20px;
+    background: #fff;
+   
+    box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
+  }
+  
+   .main-heading h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30px;
+    font-family: "Mate SC", serif;
+    color: #303243;
+    font-family: "Raleway", sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 18px;
+  } 
+  .main-heading p {
+   
+    cursor: pointer;
+ 
+    
+   
+    padding-left: 7px;
+  }
+  .answers {
+    padding: 30px 20px 40px 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    word-spacing: 2px;
+    font-weight: 400;
+    line-height: 1.7;
+    background: #fff;
+    color: rgb(40, 37, 53);
+  }
+  @media only screen and (max-width: 760px) {
+    .main-div{
+      width: 87vw;
+      padding: 20px;
+      border-radius: 0px;
+      box-shadow: none;
+    }
+    .main-heading h3 {
+      font-size: 14px;
+    }
+    .answers{
+      padding-left: 0;
+      font-size: xx-small;
+      text-align: center;
+    }
+    .boom{
+      justify-content: start;
+      margin-top: -90px;
+      
+    }
+    .main-heading h3 {
+      text-align: start;
+      font-size: xx-small;
+      margin-left: 0px;
+    }
+    .main-heading p{
+      padding-left: 4px;
+    }
+    
+  }
+  @media only screen and (max-width: 400px){
+    .boom{
+      margin-top: -10px;
+    }
+  }
