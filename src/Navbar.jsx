@@ -1,14 +1,15 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import web1 from "../src/images/Rupee solutions.svg";
 import "./Navbar.css";
 
 import { GiHamburgerMenu } from "react-icons/gi";
-import { Link, animateScroll as Scroll } from "react-scroll";
+import { Element, Link, animateScroll as Scroll } from "react-scroll";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   const [oldSticky,newSticky]=useState("main-nav1");
+  
   window.onscroll=()=>{
     let temp;
     let top = window.scrollY;
@@ -35,10 +36,10 @@ const Navbar = () => {
           }>
           <ul>
             <li>
-              <Link activeClass='active' smooth spy to="emi"><span className='game-change'>EMI</span></Link>
+              <Link  to="emi" ><span className='game-change'>EMI</span></Link>
             </li>
             <li>
-              <Link smooth spy to="main"><span className='game-change'>Overview</span></Link>
+              <Link activeClass="active" to="main"><span className='game-change'>Overview</span></Link>
             </li>
             <li>
               <Link smooth spy to="eligibility"><span className='game-change'>Eligibility</span></Link>
