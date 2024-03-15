@@ -246,71 +246,65 @@ export default function Loanpage4() {
                         
                     </section>
                     <div className="col-10 mx-auto">
-                     
+                     <section>
                         <div className='row'>
                             <div className='col order-2'>
                                 <img src={loan} className="set animated1" alt="home img" />
                             </div>
                             <div className='col order-1'>
-                                <h2 className=' setcolor'>About Property Loan</h2>
+                                <h2 className=' setcolor'>About Loan Against Property</h2>
                                 <div className='col'>
                                     <div className='adjust'>
-                                        <section id='main'>
-                                        <p>To qualify for a personal loan, you have to meet certain criteria. Below are the important factors that lenders take into consideration to decide your eligibility for a personal loan.
-
-                                            Age should fall under the range of 21 years to 60 years
-                                            Net monthly income should be 15,000/- for salaried and self-employed, yearly transactions should be a minimum of 20 lakhs
-                                        </p></section></div>
+                                        
+                                        <p>A Loan Against Property may be termed as a Mortgage Loan since to avail an LAP, you need to mortgage your property to cover risk of non-payment or default in repayment of the funds borrowed. For any lender to approve such a borrowing, the lender will first analyse your personal and financial profile, which will include criteria such nationality, age, occupation, income, and market value of the collateral you are willing to keep.
+                                        </p></div>
                                         <br></br>
                                     <Link to="contact" className="btn-get-started1">Apply Now</Link>
                                 </div>
                             </div>
                         </div>
+                        </section>
                         </div>
                         <section id="contact">
             <FormExample></FormExample>
             </section>
                         <div className="col-10 mx-auto">
-                        <section id="eligibility">
+                        <div id="eligibility" className="pt-5"></div>
                         <div className='pt-5'>
                             <h3 className='texter pb-3'>Eligibility</h3>
-                            <p>To qualify for a personal loan, you have to meet certain criteria. Below are the important factors that lenders take into consideration to decide your eligibility for a personal loan.</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Age should fall under the range of 21 years to 60 years</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Net monthly income should be 15,000/- for salaried and self-employed, yearly transactions should be a minimum of 20 lakhs</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Credit score must be above 650</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Debt-to-income ratio</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Employment stability</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Maintained a good credit score</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Clear repayment history</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Must be a Resident Citizen of India</p>
+                            
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Nationality: You need to be a Citizen of India with documents to prove your claim.</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Occupation and Income: Your lender will require you to furnish details regarding your occupation and income to prove your professional and financial stability to determine your creditworthiness.</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Credit History: Your three-digit Credit Score, indicative of your track record in respect of repayment of loans, and other forms of credit will be a deciding factor to prove your eligibility for a LAP.</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Banking Relationship: Should you have a healthy relationship with your lender, you will not be disapproved for a LAP. Additionally, your lender will offer you better terms and conditions in respect of loan value, interest rates, period of the loan, hidden charges, and processing fees.</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Market Value of Property: Your lender retains the right to decide the loan amount and terms and conditions of your mortgage loan based on the market value of your collateral property. Besides, the market value of the mortgaged property must be higher than the loan amount calculated on the current value</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Title of Property: Your lender will require you to be the current existent owner of the property, and in case of a co-application, you will require to prove multiple ownership clear title. Besides, the property must not be mortgaged with any other financial institution.</p>
+                            
 
                         </div>
-                        </section>
-                        <section id="features">
+                        
+                        <div id="features" className="pt-5"></div>
                         <div className='pt-5'>
-                            <h3 className='texter pb-3'>Features and Benefits of our Personal Loan</h3>
-                            <p>A personal loan is an unsecured loan that is not backed by collateral or security. This makes it a flexible financing option, as there are no limitations on its use.</p>
-                            <p>The followings are the ways a personal loan can be useful:</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Debt consolidation:  Combining multiple debts into a single loan with a lower interest rate to save money on interest payments and make it easier to manage debts.</p>
-                            <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Home renovation:  Using a personal loan to fund home renovation projects can increase the value of your home and improve your living conditions.</p>
-                            <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Medical expenses: If you have unexpected medical expenses, such as emergency surgery or hospitalization, a personal loan can help cover the costs.</p>
-                            <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Emergency expenses:  A personal loan can help cover unexpected expenses like medical emergencies or car repairs to avoid financial hardship.</p>
+                            <h3 className='texter pb-3'>Features and Benefits of our Loan Against property</h3>
+                            
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Secured Loan : The loan is secured against the value of your property. The property acts as collateral, reducing the risk for the lender. This generally leads to lower interest rates compared to unsecured loans.</p>
+                            <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Loan Amount:  The loan amount is determined based on the value of the property you pledge. Generally, you can get a higher loan amount compared to personal loans or other unsecured loans.</p>
+                            <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Flexible Tenure : The tenure (repayment period) for a Loan Against Property is usually longer compared to other types of loans, often ranging from 5 to 20 years. This allows for lower monthly installments.</p>
+                            <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Multipurpose : The loan amount can be used for a wide range of purposes, giving you the flexibility to address various financial needs without any restrictions.</p>
+                            <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Improves Credit Scores : Successfully repaying a Loan Against Property can positively impact your credit score, as it demonstrates responsible borrowing behavior.</p>
                         </div>
-                        </section>
-                        <section id='documents'>
+                        
+                        <div id="documents" className="pt-5"></div>
                         <div className='pt-5'>
-                            <h3 className='texter pb-3'>Documents required to apply for Personal Loan</h3>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Identity Proof  - Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Proof of Residence or Address Proof - Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card, Electricity Bill, Telephone Bill, Ration Card </p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Age Proof -  Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Income Proof - 1 year Bank statement, 3 months Salary Slips</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Employment Proof - Employment Certificate, Office address proof</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;GST or VAT Registration for Self-employed</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Photograph - Passport-size photographs</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Business proof - Business registration documents such as a partnership deed, Memorandum of Association (MOA), Articles of Association (AOA), etc.</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Income tax returns – Documents of the past 2-3 years to verify income and tax payment history</p>
+                            <h3 className='texter pb-3'>Documents required to apply for Loan Against Property</h3>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Proof of identity/residence</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Proof of income</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Property-related documents</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Proof of Business (for self-employed)</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Account statement for the last 6 months</p>
+                            
                         </div>
-                        </section>
+                        
                         <div className='pt-5'>
 
                         </div>
@@ -324,9 +318,9 @@ export default function Loanpage4() {
                     <div className='row'>
                         <div className='col'>
                             <div className='row pt-5'>
-                                <h3 className='setcolorb'>Fees and Charges for Personal Loan</h3>
-                                <p className='text-white pt-3'>The fees and charges of personal loans usually vary from lender to lender and from case to case.
-                                    The aforementioned table will give you a fair idea of the fees and charges related to personal loans:</p>
+                                <h3 className='setcolorb'>Fees and Charges for Loan Against Property</h3>
+                                <p className='text-white pt-3'>The fees and charges of loans against property usually vary from lender to lender and from case to case.
+                                    The aforementioned table will give you a fair idea of the fees and charges related to loans against property:</p>
                             </div>
                             <div className='row pt-5'>
                                 <div className='col'>
@@ -349,9 +343,9 @@ export default function Loanpage4() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col text-end ps-3'>
+                        <div className='col text-end ps-3 pt-5'>
                             <img src={loan1} className="set animated1" alt="home img" />
-                            <div className="text-center">
+                            <div className="text-center pt-3">
                                 <Link to="contact" className="btn-get-started2">Get Started</Link>
                                 </div>
                         </div>

@@ -25,9 +25,7 @@ const Navbar1 = () => {
             <li>
               <NavLink to="/">Home</NavLink>
             </li>
-            <li>
-              <NavLink to="/">About</NavLink>
-            </li>
+           
             <li>
               <NavLink to="/">
               <NavDropdown title="Loans" id="nav-dropdown">
@@ -39,9 +37,15 @@ const Navbar1 = () => {
         <NavDropdown.Item eventKey="4.4"> <NavLink to="/loan2">Car Loan</NavLink></NavDropdown.Item>
         <NavDropdown.Item eventKey="4.5"> <NavLink to="/loan5">Gold Loan</NavLink></NavDropdown.Item>
         
-        <NavDropdown.Item eventKey="4.6">Car Loan</NavDropdown.Item>
+        <NavDropdown.Item eventKey="4.6"><NavLink to="/Business">Business Loan</NavLink></NavDropdown.Item>
+        <NavDropdown.Item eventKey="4.7"><NavLink to="/loan3">Home Loan</NavLink></NavDropdown.Item>
+        <NavDropdown.Item eventKey="4.8"><NavLink to="Creditcard">credit Card</NavLink></NavDropdown.Item>
+
       </NavDropdown>
               </NavLink>
+            </li>
+            <li>
+              <NavLink to="/">About</NavLink>
             </li>
             <li>
               <NavLink to="/contactus">contact</NavLink>

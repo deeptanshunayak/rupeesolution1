@@ -250,11 +250,11 @@ export default function Business() {
 
                         <div className='row'>
                             
-                            <div className='col order-2'>
+                            <div className='col order-1 order-md-2'>
                                 <img src={loan} className="set animated1" alt="home img" />
                             </div>
                             
-                            <div className='col order-1'>
+                            <div className='col order-2 order-md-1'>
                                 <h2 className='setcolor'>About Business Loan</h2>
                                 <div className='col'>
                                     <div className='adjust'>
@@ -293,12 +293,13 @@ export default function Business() {
                             <div id="features" className="pt-5"></div>
                             <div className='pt-5 fade-in'>
                                 <h3 className='texter pb-3'>Features and Benefits of our Business Loan</h3>
-                                <p>A personal loan is an unsecured loan that is not backed by collateral or security. This makes it a flexible financing option, as there are no limitations on its use.</p>
-                                <p>The followings are the ways a personal loan can be useful:</p>
-                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Debt consolidation:  Combining multiple debts into a single loan with a lower interest rate to save money on interest payments and make it easier to manage debts.</p>
-                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Home renovation:  Using a personal loan to fund home renovation projects can increase the value of your home and improve your living conditions.</p>
-                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Medical expenses: If you have unexpected medical expenses, such as emergency surgery or hospitalization, a personal loan can help cover the costs.</p>
-                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Emergency expenses:  A personal loan can help cover unexpected expenses like medical emergencies or car repairs to avoid financial hardship.</p>
+                               
+                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Term Loans</p>
+                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Working Capital Loans</p>
+                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Business Expansion Loans</p>
+                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Equipment Financing Loans</p>
+                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Invoice Financing & Bill Discounting</p>
+                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Machinery Loans</p>
                             </div>
                             
                             <div id="documents" className="pt-5"></div>

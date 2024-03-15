@@ -147,6 +147,15 @@ ul li {
   text-transform: uppercase;
   text-align: center;
 }
+.game-change{
+  color: #9B8F8F;
+}
+.game-change:hover{
+  color: black;
+}
+.game-change:active{
+  color: black;
+}
 
 /* responsive css style  */
 @media (max-width: 1080px) {

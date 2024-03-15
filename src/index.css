@@ -29,12 +29,7 @@ body {
   background-position: center;
   
 }
-.game-change{
-  color: #9B8F8F;
-}
-.game-change:hover{
-  color: black;
-}
+
 .iconic{
   
   background: url("../src/images/bgicon.svg");

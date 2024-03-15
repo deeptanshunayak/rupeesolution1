@@ -246,7 +246,7 @@ export default function Loanpage3() {
                         
                     </section>
                     <div className="col-10 mx-auto">
-
+                    <section id='main'>
                         <div className='row'>
                             <div className='col order-2'>
                                 <img src={loan} className="set animated1" alt="home img" />
@@ -255,19 +255,17 @@ export default function Loanpage3() {
                                 <h2 className='setcolor'>About Home Loan</h2>
                                 <div className='col'>
                                     <div className='adjust'>
-                                        <section id='main'>
-                                        <p>To qualify for a personal loan, you have to meet certain criteria. Below are the important factors that lenders take into consideration to decide your eligibility for a personal loan.
-
-                                            Age should fall under the range of 21 years to 60 years
-                                            Net monthly income should be 15,000/- for salaried and self-employed, yearly transactions should be a minimum of 20 lakhs
+                                        
+                                        <p>A home loan, is a loan provided by a financial institution to help you purchase or refinance a home. It is typically repaid in monthly installments over a specified term.
                                         </p>
-                                        </section>
+                                       
                                         </div>
                                         <br></br>
                                     <Link to="contact" className="btn-get-started1">Apply Now</Link>
                                 </div>
                             </div>
                         </div>
+                        </section>
                         </div>
                         <section id="contact">
             <FormExample></FormExample>
@@ -278,41 +276,61 @@ export default function Loanpage3() {
                        
                         <div className='pt-5'>
                             <h3 className='texter pb-3'>Eligibility</h3>
-                            <p  className="alignment">To qualify for a personal loan, you have to meet certain criteria. Below are the important factors that lenders take into consideration to decide your eligibility for a personal loan.</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Age should fall under the range of 21 years to 60 years</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Net monthly income should be 15,000/- for salaried and self-employed, yearly transactions should be a minimum of 20 lakhs</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Credit score must be above 650</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Debt-to-income ratio</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Employment stability</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Maintained a good credit score</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Clear repayment history</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Must be a Resident Citizen of India</p>
+                            <p  className="alignment"><b>Age:</b></p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;You must be above 21 years of age at the time of the commencing of your loan, and up to 65 years or less at loan maturity</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Salaried Person - 21 years to 58 years</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Self-Employed Person - 25 years to 65 years</p>
+                            <p  className="alignment"><b>Income:</b></p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Salaried Person - Minimum Rs. 10,000 per month</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Self-Employed Person - Minimum Rs. 2,00,000 per year</p>
+                            <p  className="alignment"><b>Employment:</b></p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Salaried Person - Minimum 2 to 3 years of Experience in MNC, or a Private or Public Limited Company</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Self-Employed Person - Minimum 3 years of Experience in the current field</p>
+                            <p  className="alignment"><b>Credit Score:</b></p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;A credit score of 750 is considered a good score for approval.</p>
+                            
+                           
+                            
+                            
 
                         </div>
                         
                         <div id="features" className="pt-5"></div>
                         <div className='pt-5'>
-                            <h3 className='texter pb-3'>Features and Benefits of our Personal Loan</h3>
-                            <p>A personal loan is an unsecured loan that is not backed by collateral or security. This makes it a flexible financing option, as there are no limitations on its use.</p>
-                            <p  className="alignment">The followings are the ways a personal loan can be useful:</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Debt consolidation:  Combining multiple debts into a single loan with a lower interest rate to save money on interest payments and make it easier to manage debts.</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Home renovation:  Using a personal loan to fund home renovation projects can increase the value of your home and improve your living conditions.</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Medical expenses: If you have unexpected medical expenses, such as emergency surgery or hospitalization, a personal loan can help cover the costs.</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Emergency expenses:  A personal loan can help cover unexpected expenses like medical emergencies or car repairs to avoid financial hardship.</p>
+                            <h3 className='texter pb-3'>Features and Benefits of our Home Loan</h3>
+                            <p>A vast array of institutions offer you the best home loan rates at the most competitive rates and affordable EMIs.</p>
+                            
+                            <p  className="alignment"><span>&#8226;</span>&nbsp;&nbsp;Home Construction Loan:  If you have a plot of land and lack financial support to construct a home on that piece of property, you may choose a house construction loan. Such borrowing is mainly made to construct or repair a major part of your home.</p>
+                            <p  className="alignment"><span>&#8226;</span>&nbsp;&nbsp;Home Extension Loan:  Should you already own a home, and feel the need to extend the building, add an annexe, or build another floor, etc., Home Extension Loan is your go-to option that finances such needs.</p>
+                            <p  className="alignment"><span>&#8226;</span>&nbsp;&nbsp;Home Improvement Loan:  All of us wish to improve and upgrade our homes for a better life. From your old-age furniture, fixtures to faulty lightning systems, Home Improvement Loan funds all your plans.</p>
+                            <p  className="alignment"><span>&#8226;</span>&nbsp;&nbsp;NRI Home Loan:  If you are a patriot, a Non-Resident Indian, and wish to own residential property in India, NRI Home Loan is your answer. Though the formalities for application may be a little different.</p>
                         </div>
                         
                         <div id="documents" className="pt-5"></div>
                         <div className='pt-5'>
-                            <h3 className='texter pb-3'>Documents required to apply for Personal Loan</h3>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Identity Proof  - Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Proof of Residence or Address Proof - Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card, Electricity Bill, Telephone Bill, Ration Card </p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Age Proof -  Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Income Proof - 1 year Bank statement, 3 months Salary Slips</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Employment Proof - Employment Certificate, Office address proof</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;GST or VAT Registration for Self-employed</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Photograph - Passport-size photographs</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Business proof - Business registration documents such as a partnership deed, Memorandum of Association (MOA), Articles of Association (AOA), etc.</p>
-                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Income tax returns – Documents of the past 2-3 years to verify income and tax payment history</p>
+                            <h3 className='texter pb-3'>Documents required to apply for Home Loan</h3>
+                            <p  className="alignment"><b>Salaried Individuals</b></p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Form 16</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Employee Identity Card</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;3 Months Salary Slip</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;6 Month Bank Account Statement</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Duration of Employment Evidence</p>
+                            <p  className="alignment"><b>Self-Employed Individuals</b></p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;PAN</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Trade License</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Partnership Deed</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;SEBI Registration Certificate</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;ROC Registration Certificate</p>
+                            
+                            <p  className="alignment"><b>Documents Required from all Non-Resident Indians (NRIs) Applicants</b></p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Income Proof Documents for NRI</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Property Papers</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Property Documents</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Stamped Agreement of Sale</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;No Objection Certificate or NOC</p>
+                            <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Construction Cost Estimate</p>
+                            
+                            
                         </div>
                         
                         <div className='pt-5'>
@@ -328,9 +346,9 @@ export default function Loanpage3() {
                     <div className='row'>
                         <div className='col'>
                             <div className='row pt-5'>
-                                <h3 className='setcolorb'>Fees and Charges for Personal Loan</h3>
-                                <p className='text-white pt-3'>The fees and charges of personal loans usually vary from lender to lender and from case to case.
-                                    The aforementioned table will give you a fair idea of the fees and charges related to personal loans:</p>
+                                <h3 className='setcolorb'>Fees and Charges for Home Loan</h3>
+                                <p className='text-white pt-3'>The fees and charges of home loans usually vary from lender to lender and from case to case.
+                                    The aforementioned table will give you a fair idea of the fees and charges related to home loans:</p>
                             </div>
                             <div className='row pt-5'>
                                 <div className='col'>

@@ -243,97 +243,95 @@ export default function Loanpage1() {
             </div>
           </section>
           <section>
-                        
-                        <Navbar></Navbar>
-                        
-                    </section>
-          <div className="col-10 mx-auto">
 
+            <Navbar></Navbar>
+
+          </section>
+          <div className="col-10 mx-auto">
+          <section id='main'>
             <div className='row'>
               <div className='col order-2'>
                 <img src={loan} className="set animated1" alt="home img" />
               </div>
               <div className='col fade-in order-1'>
                 <h2 className='setcolor'>About Education Loan</h2>
-                <div className='pt-5'>
+                <div className=''>
                   <div className='adjust'>
-                    <section id='main'>
-                    <p>To qualify for a personal loan, you have to meet certain criteria. Below are the important factors that lenders take into consideration to decide your eligibility for a personal loan.
 
-                      Age should fall under the range of 21 years to 60 years
-                      Net monthly income should be 15,000/- for salaried and self-employed, yearly transactions should be a minimum of 20 lakhs
+                    <p>An education loan is a financial product designed to assist students and their families in covering the costs associated with higher education, including tuition fees, books, living expenses, and more.
                     </p>
-                    </section></div>
-                    
+                  </div>
+
                   <br></br>
                   <Link to="contact" className="btn-get-started1">Apply Now</Link>
                 </div>
               </div>
             </div>
-           </div>
-           <section id='contact'>
-          <FormExample></FormExample>
-        </section>
-           <div className="col-10 mx-auto">
-           <div id="eligibility" className="pt-5"></div>
-              <div className='pt-5 fixing'>
-                <h3 className='texter pb-3'>Eligibility</h3>
+            </section>
+          </div>
+          <section id='contact'>
+            <FormExample></FormExample>
+          </section>
+          <div className="col-10 mx-auto">
+            <div id="eligibility" className="pt-5"></div>
+            <div className='pt-5 fixing'>
+              <h3 className='texter pb-3'>Eligibility</h3>
 
-                <p className="alignment">To qualify for a personal loan, you have to meet certain criteria. Below are the important factors that lenders take into consideration to decide your eligibility for a personal loan.</p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Age should fall under the range of 21 years to 60 years</p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Net monthly income should be 15,000/- for salaried and self-employed, yearly transactions should be a minimum of 20 lakhs</p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Credit score must be above 650</p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Debt-to-income ratio</p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Employment stability</p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Maintained a good credit score</p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Clear repayment history</p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Must be a Resident Citizen of India</p>
+              <p className="alignment">Education loan eligibility criteria can vary depending on the country of study, the lender, and the type of loan you're applying for. However in a general overview the factors that often influence education loan eligibility are:</p>
+              <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Age: Most lenders have a minimum and maximum age requirement for loan applicants. Typically, you need to be of legal age (18 or older) to apply for a loan.</p>
+              <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Income/Financial Ability: Some lenders may consider your ability to repay the loan based on your income or your co-borrower's income.</p>
+              <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Documentation: You will likely need to provide various documents as part of your loan application, such as proof of identity, proof of admission, income documents, and more.</p>
+              <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Program Eligibility: Education loans are often tied to specific educational programs or courses. Lenders may have a list of eligible institutions and programs that qualify for loans.</p>
+              <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Guarantor: If you have limited credit history or income, some lenders might require a co-borrower or guarantor (usually a parent or guardian).</p>
+              <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Loan Amount: The loan amount you're requesting in relation to the cost of the program might affect your eligibility. Lenders may have specific limits on the loan amount they are willing to offer.</p>
 
-              </div>
-              <div id="features" className="pt-5"></div>
-           
-              <div className='pt-5'>
-                <h3 className='texter pb-3'>Features and Benefits of our Personal Loan</h3>
-                <p className="alignment">A personal loan is an unsecured loan that is not backed by collateral or security. This makes it a flexible financing option, as there are no limitations on its use.</p>
-                <p className="alignment">The followings are the ways a personal loan can be useful:</p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Debt consolidation:  Combining multiple debts into a single loan with a lower interest rate to save money on interest payments and make it easier to manage debts.</p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Home renovation:  Using a personal loan to fund home renovation projects can increase the value of your home and improve your living conditions.</p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Medical expenses: If you have unexpected medical expenses, such as emergency surgery or hospitalization, a personal loan can help cover the costs.</p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Emergency expenses:  A personal loan can help cover unexpected expenses like medical emergencies or car repairs to avoid financial hardship.</p>
-              </div>
-           
-              <div id="documents" className="pt-5"></div>
-              <div className='pt-5'>
-                <h3 className='texter pb-3'>Documents required to apply for Personal Loan</h3>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Identity Proof  - Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card</p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Proof of Residence or Address Proof - Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card, Electricity Bill, Telephone Bill, Ration Card </p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Age Proof -  Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card</p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Income Proof - 1 year Bank statement, 3 months Salary Slips</p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Employment Proof - Employment Certificate, Office address proof</p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;GST or VAT Registration for Self-employed</p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Photograph - Passport-size photographs</p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Business proof - Business registration documents such as a partnership deed, Memorandum of Association (MOA), Articles of Association (AOA), etc.</p>
-                <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;&nbsp;&nbsp;Income tax returns – Documents of the past 2-3 years to verify income and tax payment history</p>
-              </div>
-            
+
+            </div>
+            <div id="features" className="pt-5"></div>
+
+            <div className='pt-5'>
+              <h3 className='texter pb-3'>Features and Benefits of our Education Loan</h3>
+
+              <p className="alignment">The followings are the ways a Education loan can be useful:</p>
+              <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Moratorium Period : Repayment typically starts after the completion of the course, providing students time to secure employment.</p>
+              <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Co-borrower Option : Parents or guardians can be co-borrowers to enhance eligibility.</p>
+              <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Tax Benefits : Repayment interest might be eligible for tax deductions under Section 80E of the Income Tax Act.</p>
+              <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Multiple Courses and Institutions : Loans are available for various courses, from school education to higher studies, and for institutions in India and abroad.</p>
+              <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Collateral and Non-Collateral Loans : Depending on the loan amount, some may require collateral, while smaller loans might not need any security.</p>
+            </div>
+
+            <div id="documents" className="pt-5"></div>
+            <div className='pt-5'>
+              <h3 className='texter pb-3'>Documents required to apply for Personal Loan</h3>
+              <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Identity Proof  - Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card</p>
+              <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Proof of Residence or Address Proof - Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card, Electricity Bill, Telephone Bill, Ration Card </p>
+              <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Age Proof -  Passport, Voter’s ID, Driving License, PAN Card, Aadhaar Card</p>
+              <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Income Proof - 1 year Bank statement, 3 months Salary Slips</p>
+              <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Employment Proof - Employment Certificate, Office address proof</p>
+              <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;GST or VAT Registration for Self-employed</p>
+              <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Photograph - Passport-size photographs</p>
+              <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Business proof - Business registration documents such as a partnership deed, Memorandum of Association (MOA), Articles of Association (AOA), etc.</p>
+              <p className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;&nbsp;&nbsp;Income tax returns – Documents of the past 2-3 years to verify income and tax payment history</p>
+            </div>
+
             <div className='pt-5'>
 
             </div>
 
-          
 
 
+
+          </div>
         </div>
-        </div>
-        
+
         <section id='ruloans'>
           <div className="col-10 mx-auto pt-5">
             <div className='row'>
               <div className='col'>
                 <div className='row pt-5'>
-                  <h3 className='setcolorb'>Fees and Charges for Personal Loan</h3>
-                  <p className='text-white pt-3'>The fees and charges of personal loans usually vary from lender to lender and from case to case.
-                    The aforementioned table will give you a fair idea of the fees and charges related to personal loans:</p>
+                  <h3 className='setcolorb'>Fees and Charges for Education Loan</h3>
+                  <p className='text-white pt-3'>The fees and charges of Education loans usually vary from lender to lender and from case to case.
+                    The aforementioned table will give you a fair idea of the fees and charges related to Education loans:</p>
                 </div>
                 <div className='row pt-5'>
                   <div className='col'>
@@ -359,15 +357,15 @@ export default function Loanpage1() {
               <div className='col text-end ps-3'>
                 <img src={fb} className="set animated1" alt="home img" />
                 <div className="text-center">
-                                <Link to="contact" className="btn-get-started2">Get Started</Link>
-                                </div>
+                  <Link to="contact" className="btn-get-started2">Get Started</Link>
+                </div>
               </div>
             </div>
           </div>
         </section>
         <section id="accorder">
-                <AccordionUsage1></AccordionUsage1>
-                </section>
+          <AccordionUsage1></AccordionUsage1>
+        </section>
         <section id="boomer">
           <Footer></Footer>
         </section>
