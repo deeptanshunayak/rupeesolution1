@@ -36,25 +36,25 @@ const Navbar = () => {
           }>
           <ul>
             <li>
-              <Link  to="emi" ><span className='game-change'>EMI</span></Link>
+              <a href="#emi" ><span className='game-change'>EMI</span></a>
             </li>
             <li>
-              <Link activeClass="active" to="main"><span className='game-change'>Overview</span></Link>
+              <a href="#main"><span className='game-change'>Overview</span></a>
             </li>
             <li>
-              <Link smooth spy to="eligibility"><span className='game-change'>Eligibility</span></Link>
+              <a href="#eligibility"><span className='game-change'>Eligibility</span></a>
             </li>
             <li>
-              <Link smooth spy to="features"><span className='game-change'>Features</span></Link>
+              <a href="#features"><span className='game-change'>Features</span></a>
             </li>
             <li>
-              <Link smooth spy to="documents"><span className='game-change'>Documents</span></Link>
+              <a href="#documents"><span className='game-change'>Documents</span></a>
             </li>
             <li>
-              <Link smooth spy to="ruloans"><span className='game-change'>Fees & Charges</span></Link>
+              <a href="#ruloans"><span className='game-change'>Fees & Charges</span></a>
             </li>
             <li>
-              <Link smooth spy to="accorder"><span className='game-change'>FAQ's</span></Link>
+              <a href="#accorder"><span className='game-change'>FAQ's</span></a>
             </li>
           </ul>
         </div>
