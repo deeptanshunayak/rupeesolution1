@@ -78,7 +78,7 @@ body {
 }
 #ruloans{
   width: 100%;
-  height: 100vh;
+  height: fit-content;
   background-color: #00063F;
   overflow-x: hidden;
 }
@@ -576,15 +576,15 @@ background: #3498db;
   color: #3C3C3C;
   font-weight: 700;
 }
-@media only screen and (max-width:1350px){
+@media only screen and (max-width:1330px){
   .card{
-    width: 230px !important;
-    height: 235px !important;
+    width: 220px !important;
+    height: 230px !important;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
   .vb{
     background-color: #5C50F8;
-    width: 421px;
+    width: 411px;
     height:250px;
     border-radius:35px;
     border:1px solid black;
@@ -593,17 +593,18 @@ background: #3498db;
   }
   .vb1{
     background-color: #F9F4F1;
-    width: 420px;
+    width: 410px;
     height:185px;
     color:#5C50F8;
     border-radius:35px;
      border:1px solid black;
    
   }
+  
 }
 @media only screen and (max-width: 760px) {
   .slider{
-    width: 260px;
+    width: 304px;
     justify-content: flex-start;
   }
   .slider1{
@@ -644,7 +645,7 @@ background: #3498db;
 }
   .vb{
   width: 331px;
-  font-size: x-small;
+  font-size: small;
   height: 200px;
   }
   .vb1{
