@@ -259,8 +259,9 @@ export default function Loanpage() {
 
                                     <img src={img1} className="set animated1" alt="home img" />
                                 </div>
-
+                                
                                 <div className='col order-1'>
+                                
                                     <h2 className=' setcolor'>About Personal Loan</h2>
                                     <div className='col'>
 
@@ -277,7 +278,8 @@ export default function Loanpage() {
                                         <Link to="contact" className="btn-get-started1">Apply Now</Link>
                                     </div>
                                 </div>
-
+                                
+                               
                             </div>
                         </div>
                     </section>

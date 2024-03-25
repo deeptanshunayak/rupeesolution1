@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Mulish', sans-serif;
+  
 }
 body {
   margin: 0;
@@ -19,6 +20,7 @@ body {
 .bigg{
   background-color: #FAF9F6;
 }
+
 .formcolor{
   color: #C9F1D4;
 }
@@ -573,7 +575,7 @@ background: #3498db;
   color: #3C3C3C;
   font-weight: 700;
 }
-@media only screen and (max-width:1300px){
+@media only screen and (max-width:1350px){
   .card{
     width: 230px !important;
     height: 235px !important;

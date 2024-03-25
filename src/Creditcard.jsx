@@ -293,9 +293,9 @@ export default function Creditcard() {
                             <div id="features" className="pt-5"></div>
                             <div className='pt-5 fade-in'>
                                 <h3 className='texter pb-3'>Features and Benefits of our Credit Card</h3>
-                                <p>A personal loan is an unsecured loan that is not backed by collateral or security. This makes it a flexible financing option, as there are no limitations on its use.</p>
-                                <p>The followings are the ways a personal loan can be useful:</p>
-                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Debt consolidation:  Combining multiple debts into a single loan with a lower interest rate to save money on interest payments and make it easier to manage debts.</p>
+                                <p>The credit card segment continues to grow universally as innovative contenders enter the space with fresh and advanced features. Get a look at the basic features.</p>
+                                
+                                <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;APR:  APR refers to the term Annual Percentage Rate, an interest rate applicable to the balance you carry forward past the grace period</p>
                                 <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Home renovation:  Using a personal loan to fund home renovation projects can increase the value of your home and improve your living conditions.</p>
                                 <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Medical expenses: If you have unexpected medical expenses, such as emergency surgery or hospitalization, a personal loan can help cover the costs.</p>
                                 <p  className="alignment">&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;Emergency expenses:  A personal loan can help cover unexpected expenses like medical emergencies or car repairs to avoid financial hardship.</p>
