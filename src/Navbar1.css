@@ -275,7 +275,7 @@ ul li {
   }
 
   .social-media .hamburger-menu {
-    display: block;
+    display: block !important;
     font-size: 2.5rem;
   }
 

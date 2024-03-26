@@ -14,9 +14,9 @@ import Loanpage4 from './Loanpage4';
 import Loanpage5 from './Loanpage5';
 import Business from './Business';
 import Creditcard from './Creditcard';
-import Navbar  from './Navbar';
+
 import Form from './Form';
-import ScrollToTop from "react-scroll-to-top";
+
 import { useEffect } from 'react';
 function App() {
   const {pathname}=useLocation();

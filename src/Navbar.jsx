@@ -60,18 +60,7 @@ const Navbar = () => {
         </div>
 
         {/* 3rd social media links */}
-        <div className="social-media">
-          <ul className="social-media-desktop">
-
-          </ul>
-
-          {/* hamburget menu start  */}
-          <div className="hamburger-menu">
-            <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
-              <GiHamburgerMenu />
-            </a>
-          </div>
-        </div>
+        
       </nav>
     </>
 
