@@ -56,7 +56,7 @@ const Navbar1 = () => {
         {/* 3rd social media links */}
         <div className="social-media">
           <ul className="social-media-desktop">
-          <NavLink to="/" className="btn-get-started1">Get Started</NavLink>
+          <NavLink to="/contactus" className="btn-get-started1">Get Started</NavLink>
           </ul>
 
           {/* hamburget menu start  */}

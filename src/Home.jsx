@@ -141,7 +141,7 @@ const Home = () => {
                                         Empowering Your Financial Journey through Customized Asset Management Services
                                     </h2>
                                     <div className="mt-3">
-                                        <NavLink to="/" className="btn-get-started">Get Started</NavLink>
+                                        <NavLink to="/contactus" className="btn-get-started">Get Started</NavLink>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 order-2 order-lg-2 header-img">
@@ -168,7 +168,7 @@ const Home = () => {
                                         We are the team of good developers
                                     </h2>
                                     <div className="mt-3">
-                                        <NavLink to="/" className="btn-get-started">Get Started</NavLink>
+                                        <NavLink to="/contactus" className="btn-get-started">Get Started</NavLink>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 order-1 order-lg-2 header-img">

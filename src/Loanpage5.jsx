@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 import Accordian from './Accordian'
 import { NavLink } from "react-router-dom";
 import { Slider } from "@mui/material";
-import loan from "../src/images/personalloan.svg"
+import loan from "../src/images/gold.svg"
 import fb from "../src/images/footerb.svg"
 import AccordionUsage5 from './AccordionUsage5'
-import loan1 from "../src/images/loan1.svg"
+import loan1 from "../src/images/golder.svg"
 import { Link, animateScroll as Scroll } from "react-scroll";
 import Footer from "./Footer";
 import { GiHamburgerMenu } from "react-icons/gi";

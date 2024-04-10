@@ -5,8 +5,9 @@ export default function Footer() {
     return (
         <MDBFooter style={{ backgroundColor: '#00063F' }} className='text-center text-lg-start text-muted'>
             <section className='d-flex justify-content-center justify-content-lg-between p-4'>
-                <div className='me-5 d-none d-lg-block'>
-
+                <div className='ms-5 d-none d-lg-block'>
+                      <p className='text-white fonting'>Email Id: xyz@gmail.com</p>
+                      <p className='text-white fonting'>Phone No: 0090090911</p>
                 </div>
 
                 <div>
@@ -36,84 +37,76 @@ export default function Footer() {
                     <MDBRow className='mt-3'>
 
 
+                        
+
                         <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-                            <h6 className='text-uppercase fw-bold mb-4 text-white'>Company</h6>
+                            <h6 className='text-uppercase fw-bold mb-4 text-white'>Loans</h6>
                             <p className='text-white'>
                                 
-                                    About
+                                Personal Loan
+                                
+                            </p>
+                            <p className='text-white'>
+                               
+                                Home Loan
+                               
+                            </p>
+                            <p className='text-white'>
+                               
+                                Car Loan
+                            </p>
+                            <p className='text-white'>
+                                
+                                Education Loan
+                               
+                            </p>
+                            <p className='text-white'>
+                                
+                                Business Loan
+                                
+                            </p>
+                            <p className='text-white'>
+                                
+                                Credit Card
+                                
+                            </p>
+                            <p className='text-white'>
+                                
+                                Loan Against Property
+                                
+                            </p>
+                            <p className='text-white'>
+                                
+                                Gold Loan
+                                
+                            </p>
+                        </MDBCol>
+                        <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
+                            <h6 className='text-uppercase fw-bold mb-4 text-white'>Pages</h6>
+                            <p className='text-white'>
+                                
+                                    Home
                               
                             </p>
                             <p className='text-white'>
                                
-                                    Pricing
+                                    About
                                 
                             </p>
                             <p className='text-white'>
                                
-                                    Jobs
+                                    Calculator
                                
                             </p>
                             <p className='text-white'>
                                
-                                    Blogs
+                                    About Us
                                 
                             </p>
-                            <p className='text-white'>
-                               
-                                    Career
-                               
-                            </p>
+                           
                         </MDBCol>
-
-                        <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-                            <h6 className='text-uppercase fw-bold mb-4 text-white'>Loans</h6>
-                            <p className='text-white'>
-                                
-                                    Sales Software
-                                
-                            </p>
-                            <p className='text-white'>
-                               
-                                    Features
-                               
-                            </p>
-                            <p className='text-white'>
-                               
-                                    Privacy and Security
-                             
-                            </p>
-                            <p className='text-white'>
-                                
-                                    Marketplace
-                               
-                            </p>
-                            <p className='text-white'>
-                                
-                                    API
-                                
-                            </p>
-                        </MDBCol>
-
-                        <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
-                            <h6 className='text-uppercase fw-bold mb-4 text-white'>Help Center</h6>
-                            <p className='text-white'>
-                                <MDBIcon icon="home" className="" />
-                                Community
-                            </p>
-                            <p className='text-white'>
-                                <MDBIcon icon="envelope" className="text-white" />
-                                Knowledge base
-                            </p>
-                            <p className='text-white'>
-                                <MDBIcon icon="phone" className="text-white" /> 
-                                Academy
-                            </p>
-                            <p className='text-white'>
-                                <MDBIcon icon="print" className="text-white" />
-                                Support
-                            </p>
-                        </MDBCol>
-                        <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
+                       
+                        <MDBCol md="3" lg="4" xl="4" className='mx-auto mb-8'>
                         <img src={footerb} className="img-fluid animated1" alt="home img" />
                         </MDBCol>
                     </MDBRow>
@@ -121,7 +114,7 @@ export default function Footer() {
             </section>
             <div className='p-5'>
                 <div className='text-center text-white p-5'>
-                    © 2021 Copyright:Aspire All Rights Reserved
+                    © 2024 Copyright:Aspire All Rights Reserved
                 </div>
               
             </div>

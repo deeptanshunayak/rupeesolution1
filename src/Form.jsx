@@ -1,8 +1,11 @@
 import React from 'react'
-
+import Navbar1 from './Navbar1';
 export default function Form() {
     return (
+        <>
+        <Navbar1></Navbar1>
         <div className='adjustment'>
+           
             <div className='containerbox'>
                 <h1 className='form-title'>Personal Information</h1>
                 <form action='#'>
@@ -84,5 +87,6 @@ export default function Form() {
 
             </div>
         </div>
+        </>
     )
 }
