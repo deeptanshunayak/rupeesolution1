@@ -1,10 +1,11 @@
 import React from 'react'
 import Navbar1 from './Navbar1';
+import Footer from './Footer';
 export default function Form() {
     return (
         <>
         <Navbar1></Navbar1>
-        <div className='adjustment'>
+        <div className='adjustment mb-5'>
            
             <div className='containerbox'>
                 <h1 className='form-title'>Personal Information</h1>
@@ -87,6 +88,7 @@ export default function Form() {
 
             </div>
         </div>
+        <Footer></Footer>
         </>
     )
 }
